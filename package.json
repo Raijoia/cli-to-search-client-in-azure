@@ -1,0 +1,16 @@
+{
+  "name": "cli-search-tenant-id",
+  "version": "1.0.0",
+  "description": "CLI tool to search for tenant ID",
+  "main": "index.js",
+  "bin": {
+    "searchTenantId": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "yargs": "^17.7.2"
+  }
+}
