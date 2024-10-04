@@ -4,7 +4,8 @@
   "description": "CLI tool to search for tenant ID",
   "main": "index.js",
   "bin": {
-    "searchTenantId": "./index.js"
+    "searchTenantId": "./index.js",
+    "verifyTenant": "./verifyTenant.js"
   },
   "scripts": {
     "start": "node index.js"
